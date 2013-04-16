@@ -14,7 +14,7 @@ while 1:
 	line = cfile.readline().strip()
 	cfile.write('HTTP/1.0 200 OK\n\n')
 	cfile.write('<html><head><title>Welcome %s!</title></head>' %(str(caddr))) 
-	cfile.write('<body><h1>Follow the link...</h1>') 
+	cfile.write('<body><h1>I made a change!<h1>') 
 	cfile.write('All the server needs to do is ') 
 	cfile.write('to deliver the text to the socket. ') 
 	cfile.write('It delivers the HTML code for a link, ') 
